@@ -115,10 +115,10 @@ Public Class FrmNew
             Psi.Arguments &= "--no-playlist "
         End If
         If NudStart.Value > 0 Then
-            Psi.Arguments &= "--playlist-start " & NudStart.ToString() & " "
+            Psi.Arguments &= "--playlist-start " & NudStart.Value.ToString() & " "
         End If
         If NudEnd.Value > 0 Then
-            Psi.Arguments &= "--playlist-end " & NudEnd.ToString() & " "
+            Psi.Arguments &= "--playlist-end " & NudEnd.Value.ToString() & " "
         End If
 
         'Untertitel
