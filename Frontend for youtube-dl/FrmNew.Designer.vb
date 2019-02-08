@@ -575,20 +575,20 @@ Partial Class FrmNew
         '
         Me.CmsDelete.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LöschenToolStripMenuItem, Me.AlleLöschenToolStripMenuItem})
         Me.CmsDelete.Name = "CmsDelete"
-        Me.CmsDelete.Size = New System.Drawing.Size(181, 70)
+        Me.CmsDelete.Size = New System.Drawing.Size(142, 48)
         '
         'LöschenToolStripMenuItem
         '
         Me.LöschenToolStripMenuItem.Image = Global.Frontend_for_youtube_dl.My.Resources.Resources.minus
         Me.LöschenToolStripMenuItem.Name = "LöschenToolStripMenuItem"
-        Me.LöschenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LöschenToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.LöschenToolStripMenuItem.Text = "&Löschen"
         '
         'AlleLöschenToolStripMenuItem
         '
         Me.AlleLöschenToolStripMenuItem.Image = Global.Frontend_for_youtube_dl.My.Resources.Resources.cross
         Me.AlleLöschenToolStripMenuItem.Name = "AlleLöschenToolStripMenuItem"
-        Me.AlleLöschenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AlleLöschenToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.AlleLöschenToolStripMenuItem.Text = "&Alle Löschen"
         '
         'FrmNew

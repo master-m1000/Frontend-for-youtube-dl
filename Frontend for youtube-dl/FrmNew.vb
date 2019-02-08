@@ -253,5 +253,6 @@ Public Class FrmNew
 
     Private Sub CmsDelete_Opening(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles CmsDelete.Opening
         LöschenToolStripMenuItem.Enabled = ListBox1.SelectedIndices.Count > 0
+        'Alles Löschen immer anzeigen
     End Sub
 End Class
