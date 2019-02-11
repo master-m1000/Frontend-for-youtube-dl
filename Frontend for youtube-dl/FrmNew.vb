@@ -237,7 +237,7 @@ Public Class FrmNew
         dialog.ShowDialog(Me)
     End Sub
 
-    Private Sub Label6_DoubleClick(sender As Object, e As EventArgs) Handles Label6.DoubleClick
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
         TbExec.Text = "D:\Programme\VLC\vlc.exe --started-from-file --playlist-enqueue {}"
         TbDirectory.Text = "D:\YouTube\Cache"
     End Sub
