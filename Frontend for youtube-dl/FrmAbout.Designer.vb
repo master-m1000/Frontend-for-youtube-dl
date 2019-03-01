@@ -110,6 +110,7 @@ Partial Class FrmAbout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.BtnClose
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Controls.Add(Me.TlpLayout)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
