@@ -474,7 +474,7 @@ Partial Class FrmNew
         '
         Me.rdbAudio.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.rdbAudio.AutoSize = True
-        Me.rdbAudio.Location = New System.Drawing.Point(84, 6)
+        Me.rdbAudio.Location = New System.Drawing.Point(93, 6)
         Me.rdbAudio.Name = "rdbAudio"
         Me.rdbAudio.Size = New System.Drawing.Size(56, 17)
         Me.rdbAudio.TabIndex = 1
@@ -483,10 +483,12 @@ Partial Class FrmNew
         '
         'BtnAbout
         '
+        Me.BtnAbout.AutoSize = True
+        Me.BtnAbout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BtnAbout.Image = Global.Frontend_for_youtube_dl.My.Resources.Resources.information_frame
-        Me.BtnAbout.Location = New System.Drawing.Point(165, 3)
+        Me.BtnAbout.Location = New System.Drawing.Point(183, 3)
         Me.BtnAbout.Name = "BtnAbout"
-        Me.BtnAbout.Size = New System.Drawing.Size(75, 23)
+        Me.BtnAbout.Size = New System.Drawing.Size(58, 23)
         Me.BtnAbout.TabIndex = 2
         Me.BtnAbout.Text = "Übe&r"
         Me.BtnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
