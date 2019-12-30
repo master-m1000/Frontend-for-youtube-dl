@@ -1,6 +1,7 @@
 ﻿Option Strict Off
 Public Class FrmNew
     Private Sub FrmNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Icon = My.Resources.Frontend_for_youtube_dl
         LblSubtitles.Visible = False
         TbSubtitles.Visible = False
         CbEmbedSubtitles.Visible = False
