@@ -99,7 +99,7 @@ Public Class FrmNew
 
         If rdbVideo.Checked = True Then
             'Video
-            Psi.Arguments &= "-f ""bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio"" --merge-output-format mp4 "
+            Psi.Arguments &= "-f ""bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio/best"" --merge-output-format mp4 "
         Else
             'Audio
             If CbAudioFormat.SelectedItem.ToString = "beste Qualität" Then
